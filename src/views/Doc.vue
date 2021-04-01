@@ -3,6 +3,12 @@
     <Topnav class="nav" />
     <div class="content">
       <aside v-if="asideVisble">
+        <h2>文档</h2>
+        <ol>
+          <li><router-link to="/doc/Intro">介绍</router-link></li>
+          <li><router-link to="/doc/get-started">开始</router-link></li>
+          <li><router-link to="/doc/Install">安装</router-link></li>
+        </ol>
         <h2>组件列表</h2>
         <ol>
           <li>
